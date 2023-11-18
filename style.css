@@ -1,0 +1,195 @@
+                                    /* FONT_FAMILY */
+/* * {
+    font-family: cursive, serif;
+} */
+/* h1 {
+    font-family: Arial, Helvetica, sans-serif;
+} */
+/* .credits {
+    font-family: 'Courier New', Courier, monospace;
+} */
+
+                                       /* FONT-SIZE */
+/* FONT SIZE IN PX */
+
+/* p {
+    font-size: 32px;
+} */
+
+/* FONT SIZE IN % */
+/* p {
+    font-size: 1000%;
+} */
+
+                                     /* DEFUALT VALUES */
+/* p {
+    font-size: 9em;
+} */
+
+
+/* FONT FAMILY  */
+ /* @font-face {
+    font-family: Test;
+    src: url(./Assets/Dancing_Script/./DancingScript-VariableFont_wght.ttf);
+}
+h1 {
+    font-family: Test;
+}
+p {
+    font-family: test;
+} */
+
+
+                                 /* FONT_WEIGHT */
+/* p{
+    font-weight: 900;
+} */
+
+/* FONT-STYLE */
+                             /* USING ID SELECTOR AND COMPARING FONT STYLE  */
+
+/* #normal {
+    font-style: normal;
+}
+#italic {
+    font-style: italic;
+}
+#oblique {
+    font-style: oblique;
+} */
+                     
+                      /* TEXT-TRANSFORMATION */
+/* hello gentlemen <=lowercase */
+/* Hello Gentlemen <=Capitalize */
+/* HELLO GENTLEMEN <=UPPERCASE */
+
+/* h1 {
+    text-transform: capitalize;
+} */
+
+                                  /* LINK-DECORATION */
+
+/* #underline {
+    text-decoration: underline;
+}
+#overline {
+    text-decoration: overline;
+}
+#Line-through {
+    text-decoration: line-through;
+}
+#blink {
+    text-decoration: blink;
+} */
+                
+                    /* Line-Height/Leading */
+/* p {
+    line-height: 16px ;
+} */
+                /* LEttER ANd WOrD SPACinG */
+                /* WORD SPACING */
+/* h1 {
+    word-spacing: -5px;
+} */
+                
+                   /* LETTER SPACING */
+/* h1 {
+    letter-spacing: 8px;
+} */
+
+                     /* TEXT_ALIGN */
+/* h1 {
+    text-align: center;
+}
+p {
+    text-align: right;
+} */
+
+                   /* VERTICAL ALIGNMENT */
+
+/* img {
+    vertical-align: middle;
+} */
+
+                 /* TEXT_INDENTING */
+/* h1 {
+    text-indent: 10px;
+}
+p {
+    text-indent: 150px;
+} */
+
+              /* TEXT-SHADOW */
+/* p {
+    background-color: goldenrod;
+   color: blanchedalmond;
+   text-shadow: 1px 1px 0px #000000;
+}
+h1 {
+    text-shadow: 3px 1px 0px red;
+} */
+
+                 /* FIRST-LETTER-&-LINE */
+/* p::first-letter {
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+    font-size: 190px;
+} */
+/* p::first-line {
+    color: aqua;
+} */
+
+                       /* LINK:visited STYLING LINKS */
+/* a:link {
+    color: green;
+}
+a:visited {
+    color: red;
+} */
+
+                     /* RESPONDING TO USER */
+/* HOVER */
+/* .submit:hover{
+    
+    background-color: rgb(129, 176, 178);
+}
+.submit:active {
+    background-color: red;
+} */
+/* .submit:focus {
+background-color: blue;
+}
+.text:focus {
+    background-color: black;
+} */
+
+               /* Attribute-selector */
+               /* EXISTENCE SEL */
+/* h1[test] {
+    color: blue;
+} */
+
+              /* EQUALITY SEL */
+/* h1 [value-"val"] {
+    color: blueviolet;
+} */
+
+               /* SPACE */
+ /* h1[test~="sem"] {
+color: red;
+} */
+
+             /* PREFIX */
+/* h1[test^=h] {
+    color: blue;
+} */
+
+             /* SUBSTRING */
+/* h1[test*="el"] {
+    color: blueviolet;
+} */
+
+            /* SUFIX */
+/* h1[test$="i"] {
+    color: brown;
+} */
